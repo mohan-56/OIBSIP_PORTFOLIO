@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+   <link rel="shortcut icon" href="assets/imgs/icons8-m-others-96.png" type="image/x-icon">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <title>Mohan</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="assets/MOHAN_RESUME.pdf"  role="button">
+                Resume
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+      <section class="home" id="home">
+        <div class="home-side">
+          <a href=""><i class='bx bxl-github'></i></a>
+          <a href=""><i class='bx bxl-linkedin'></i></a>
+          <a href=""><i class='bx bxl-instagram' ></i></a>
+        </div>
+        <div class="home-content">
+          <h1>Hi I'm MOHAN</h1>
+          <h3>Competetive Coder <span><p style="display:inline; font-size: 30px;">and</p></span> Aspiring full stack devloper..</h3>
+          <p>Undergraduate..</p>
+          <a  class="nav-link btn" href="">Hire me</a>
+        </div>
+        <div class="home-img">
+          <div class="circle">
+            <span></span>
+            <div class="image">
+              <img src="assets/imgs/loading.gif" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="d-flex justify-content-center"><img src="assets/imgs/about.png" alt=""></div>
+      <div class="info">  <img src="assets/imgs/aboutme.png" alt="">
+        <p>I am an undergraduate student passionate about programming and competitive coding. I am currently pursuing my degree in Computer Science and Engineering. My goal is to leverage my technical skills and creativity to build innovative web applications that make a positive impact.</p>
+      </div>
+      </section>
+      <section id="skills">
+         <div class="d-flex justify-content-center mx-auto"><h2>skills</h2></div>
+         <div class="skill-list d-flex justify-content-around ">
+          <ul class="skills-list mt-5 ">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>MySQL</li>
+            <li>Bootstrap</li>
+            <li>Problem Solving</li>
+          </ul>
+          <img src="assets/imgs/skills.png" alt="">
+         </div>
+        </section>
+       <!--Section: Contact v.2-->
+<section id="contact" class="m-4 ">
+
+  <!--Section heading-->
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact..</p>
+
+  <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">Your name</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">Your email</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Subject</label>
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Your message</label>
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary" href="mailto:anonymous@gmail.com">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>Visakhapatnam,VIIT,INDIA</p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>+91 00000 00000</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>anonymous@gmail.com</p>
+              </li>
+          </ul>
+      </div>
+      <!--Grid column-->
+
+  </div>
+
+</section>
+<!--Section: Contact v.2-->
+
+  <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class=" m-5 text-center py-3">© 2023 Copyright,All Rights Reserved
+    <a href="/"></a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
