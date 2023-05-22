@@ -336,11 +336,15 @@ border-radius: 50%;
 
 .skill-list>img{
     margin-left: 10%;
-    height: 30%;
-    width: 30%;
+    height: 28rem;
+    width: 28rem;
 }
 .skill-list li{
  margin: 1rem;
  font-size: 18px;
  font-weight: 500;
+}
+.row
+{
+    margin:1.5rem;
 }
