@@ -327,7 +327,7 @@ border-radius: 50%;
     padding: 5%;
     font-size: 20px;
 }
-.d-flex h2{
+.d-flex h2,.h1-responsive{
     color: white;
     font-size: 50px;
     font-family: 'Kaushan Script', cursive;
